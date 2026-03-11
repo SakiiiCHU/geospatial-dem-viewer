@@ -320,8 +320,8 @@ function resetViewerStateForGrd() {
   async function handleLoadSampleTiffPair() {
   try {
     const samplePaths = [
-      "/samples/sample-dem-1.tiff",
-      "/samples/sample-dem-2.tiff",
+      "samples/sample-dem-1.tiff",
+      "samples/sample-dem-2.tiff",
     ];
 
     const files = await Promise.all(
@@ -350,16 +350,16 @@ function resetViewerStateForGrd() {
   async function handleLoadSampleGrdSet() {
   try {
     const samplePaths = [
-      "/samples/sample-dem-1.grd",
-      "/samples/sample-dem-1.hdr",
-      "/samples/sample-dem-2.grd",
-      "/samples/sample-dem-2.hdr",
-      "/samples/sample-dem-3.grd",
-      "/samples/sample-dem-3.hdr",
-      "/samples/sample-dem-4.grd",
-      "/samples/sample-dem-4.hdr",
-      "/samples/sample-dem-5.grd",
-      "/samples/sample-dem-5.hdr",
+      "samples/sample-dem-1.grd",
+      "samples/sample-dem-1.hdr",
+      "samples/sample-dem-2.grd",
+      "samples/sample-dem-2.hdr",
+      "samples/sample-dem-3.grd",
+      "samples/sample-dem-3.hdr",
+      "samples/sample-dem-4.grd",
+      "samples/sample-dem-4.hdr",
+      "samples/sample-dem-5.grd",
+      "samples/sample-dem-5.hdr",
     ];
 
     const files = await Promise.all(
