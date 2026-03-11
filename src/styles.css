@@ -230,7 +230,7 @@ body {
   margin-bottom: 2px;
 }
 
-.decision-btn {
+/* .decision-btn {
   width: 100%;
   padding: 10px 14px;
   border-radius: 10px;
@@ -241,6 +241,31 @@ body {
   cursor: pointer;
 
   transition: background 0.2s ease, transform 0.1s ease, border 0.2s ease;
+} */
+.decision-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* min-height: 72px; */
+  padding: 10px 14px;
+  box-sizing: border-box;
+
+  border: 1px solid #3e5fe5;
+  border-radius: 10px;
+  background: #1e2a36;
+  color: #eef3ff;  color: #e8edf2;
+
+
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.1s ease, border 0.2s ease;
+
+  appearance: none;
+  -webkit-appearance: none;
 }
 
 .decision-btn:hover {

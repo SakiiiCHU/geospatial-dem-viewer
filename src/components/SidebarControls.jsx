@@ -78,19 +78,12 @@ export default function SidebarControls({
             />
 
             <label
-              htmlFor={fileInputId}
-              className="decision-btn"
-              style={{
-                display: "inline-flex",
-                alignItems: "center",
-                justifyContent: "center",
-                marginTop: 8,
-                cursor: "pointer",
-                width: "100%",
-              }}
-            >
-              Load Local Files
-            </label>
+  htmlFor={fileInputId}
+  className="decision-btn"
+  style={{ marginTop: 8 }}
+>
+  Load Local Files
+</label>
 
             <div
               style={{
